@@ -10,7 +10,7 @@ const Search = ({ onSearch }: SearchProps) => {
     <View style={styles.container}>
       <TextInput
         style={styles.input}
-        placeholder="Buscar..."
+        placeholder="Alumno o ejemplar"
         placeholderTextColor="#888"
         onChangeText={onSearch}
         returnKeyType="search"

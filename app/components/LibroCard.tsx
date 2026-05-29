@@ -23,7 +23,7 @@ const LibroCard = ({ item }: Props) => {
     return (
         <Pressable style={styles.card} onPress={handlePress}>
             <Image
-                source={{ uri: `https://pacopul.github.io/bancaza/assets/portadas/${item.ISBN}.jpg` }}
+                source={{ uri: `https://appiesazarquiel.github.io/bancaza/assets/portadas/${item.ISBN}.jpg` }}
                 style={styles.imagen}
             />
             <View style={styles.cardContent}>
